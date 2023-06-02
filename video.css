@@ -1,0 +1,154 @@
+* {
+    margin: 0;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Source Sans Pro', sans-serif;
+    background-color: black;
+    color: white;
+}
+
+#abc {
+    padding: 40px 70px;
+
+}
+
+.video-details {
+
+    display: flex;
+    padding: 30px;
+    justify-content: space-between;
+    align-items: center;
+    width: 850px;
+    margin: 30px 65px;
+    background-color: rgba(109, 106, 106, 0.432);
+    border-radius: 18px;
+}
+
+.stats {
+
+    display: flex;
+    align-items: center;
+    gap: 50px;
+}
+
+.like-container {
+
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    cursor: pointer;
+}
+
+
+
+.comment-container {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+.like {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+
+}
+
+.owner-detail {
+    display: flex;
+    flex-direction: column;
+
+}
+
+.comment {
+    display: flex;
+    gap: 20px;
+    padding: 20px;
+    color: white;
+}
+
+.subscriber {
+    color: gray;
+}
+
+.profile {
+    display: flex;
+    gap: 20px;
+}
+
+.profile>img {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+}
+
+#title {
+    margin: 20px;
+    padding-left: 50px;
+}
+
+#comment-container {
+
+    display: flex;
+    flex-direction: column;
+}
+
+.comment>img,
+.comment-reply>img {
+
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+}
+
+.comment {
+    display: flex;
+    gap: 20px;
+    color: white;
+    padding: 20px;
+}
+
+.comment-right-half {
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.comment span {
+    font-size: 14px;
+    color: gray;
+}
+
+.comment p {
+    color: gray;
+    width: 100%
+}
+
+.options {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    cursor: pointer;
+}
+
+.like:hover {
+    color: white;
+}
+
+.reply {
+    background-color: transparent;
+    color: gray;
+    border: none;
+    cursor: pointer;
+}
+
+.reply:hover {
+    color: white;
+}
+
+.comment-reply {
+    padding: 30px;
+}
